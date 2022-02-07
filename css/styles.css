@@ -22,17 +22,6 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-
-.header-link {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  /*color: #757575;*/
-}
-
 .nav-list-link {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -43,5 +32,18 @@
   color: #212121;
 }
 .list-nav-list :hover {
+  color: #2196f3;
+}
+
+.header-link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-link :hover {
   color: #2196f3;
 }
