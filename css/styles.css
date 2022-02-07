@@ -42,15 +42,85 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
 }
-   .header-link :link {color: #4d4545;}  
-   .header-link :hover {color: #2196f3;}  
+.header-link :link {
+  color: #4d4545;
+}
+.header-link :hover {
+  color: #2196f3;
+}
+.main-header {
+  background-color: #2f303a;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
 
-.mod-btn{
-	background-color:#547feb;
-	border-radius: 5px;
-	font-size: 13px;
-    color:#fcfcfc;
-	padding: 5px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.mod-btn {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #fcfcfc;
+  padding: 5px;
+}
+.menu-list {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.options-list {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.menu-about {
+  background-color: #f5f4fa;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.end-page {
+  position: bottom;
+  width: 1600px;
+  height: 150px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
+.contact {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
