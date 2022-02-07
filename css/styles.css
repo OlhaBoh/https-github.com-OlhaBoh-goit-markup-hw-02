@@ -6,38 +6,39 @@
 }
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
   color: #2196f3;
 }
 .accent {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
   color: #212121;
 }
 .nav-list-link {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: #212121;
 }
 .list-nav-list :hover {
   color: #2196f3;
 }
-
+.list-nav-list :focus {
+  color: #2196f3;
+}
 .header-link {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -49,10 +50,12 @@
 .header-link :hover {
   color: #2196f3;
 }
+.header-link :focus {
+  color: #2196f3;
+}
 .main-header {
   background-color: #2f303a;
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -73,7 +76,6 @@
 }
 .menu-list {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
@@ -84,7 +86,6 @@
 }
 .options-list {
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -96,7 +97,7 @@
 .menu-about {
   background-color: #f5f4fa;
   font-family: Roboto, sans-serif;
-  font-style: normal;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -109,17 +110,16 @@
 .end-page {
   position: absolute;
   height: 150px;
-  width: 99.7%;
-
+  width: 1500px;
   background: #2f303a;
 }
 .contact {
-	
-  font-family: Roboto, sans-serif;
+  font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: #ffffff;
 }
