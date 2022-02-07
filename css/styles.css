@@ -107,15 +107,14 @@
 }
 
 .end-page {
-  position: bottom;
-  width: 1600px;
+  position: absolute;
   height: 150px;
-  left: 0px;
-  top: 2097px;
+  width: 99.7%;
 
   background: #2f303a;
 }
 .contact {
+	
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
