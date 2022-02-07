@@ -46,3 +46,11 @@
 }
    .header-link :link {color: #4d4545;}  
    .header-link :hover {color: #2196f3;}  
+
+.mod-btn{
+	background-color:#547feb;
+	border-radius: 5px;
+	font-size: 13px;
+    color:#fcfcfc;
+	padding: 5px;
+}
