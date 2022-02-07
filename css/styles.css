@@ -42,8 +42,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  
 }
-.header-link :hover {
-  color: #2196f3;
-}
+   .header-link :link {color: #4d4545;}  
+   .header-link :hover {color: #2196f3;}  
