@@ -1,7 +1,10 @@
 :root {
   --accent-color: #2196f3;
-  --primary-fond-family: sans-serif;
-  --secondary-font-family: ;
+  --primary-fond-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+}
+body {
+  font-family: var(--primary-fond-family);
 }
 
 .list {
@@ -11,7 +14,7 @@
   text-decoration: none;
 }
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -20,7 +23,7 @@
   color: var(--accent-color);
 }
 .accent {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -29,7 +32,6 @@
   color: #070606;
 }
 .nav-list-link {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -44,7 +46,6 @@
   color: var(--accent-color);
 }
 .header-link {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -61,7 +62,7 @@
 }
 .main-header {
   background-color: #2f303a;
-  font-family: Roboto, sans-serif;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -88,7 +89,6 @@
 }
 
 .menu-list {
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
@@ -98,7 +98,6 @@
   color: #212121;
 }
 .options-list {
-  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -109,7 +108,7 @@
 }
 .menu-about {
   background-color: #f5f4fa;
-  font-family: Roboto, sans-serif;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -126,8 +125,6 @@
   background: #2f303a;
 }
 .contact {
-  font-family: "Roboto", sans-serif;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -136,6 +133,7 @@
   color: #ffffff;
 }
 .mod-button {
+  font-family: inherit;
   width: 103px;
   height: 38px;
   left: 865px;
@@ -147,6 +145,7 @@
 }
 
 .mod-button:hover {
+  font-family: inherit;
   color: white;
   background: var(--accent-color);
 }
@@ -158,7 +157,7 @@
   background: #2f303a;
 }
 .logo2 {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -166,8 +165,8 @@
 
   color: var(--accent-color);
 }
-.accent2 {
-  font-family: "Raleway", sans-serif;
+.accent-down {
+  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -176,7 +175,6 @@
   color: #ffffff;
 }
 .pictures-ithem {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -185,7 +183,6 @@
   color: #212121;
 }
 .pictures-ithem {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
