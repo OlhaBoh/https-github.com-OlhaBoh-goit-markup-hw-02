@@ -25,7 +25,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: #ffffff;
 }
 .nav-list-link {
   font-family: Roboto, sans-serif;
@@ -73,7 +73,7 @@
 }
 
 .mod-btn {
-  background: #2196f3;
+  background: #808080;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #fcfcfc;
@@ -82,12 +82,10 @@
   cursor: pointer;
 }
 
-.mod-btn :hover {
-  color: #2196f3;
+.mod-btn:hover{
+     background: #2196f3;;
 }
-.mod-btn :focus {
-  color: #2196f3;
-}
+
 .menu-list {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -137,3 +135,43 @@
 
   color: #ffffff;
 }
+.mod-button {
+width: 103px;
+height: 38px;
+left: 865px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+ .mod-button:hover {color: white; background: #2196f3;}
+
+.end-page2 {
+  position: absolute;
+  height: 150px;
+  width: 1500px;
+  background: #2f303a;
+}
+.logo2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.accent2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+
+
