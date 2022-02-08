@@ -1,4 +1,5 @@
 :root {
+  --accent-color: #2196f3;
   --primary-fond-family: sans-serif;
   --secondary-font-family: ;
 }
@@ -16,7 +17,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .accent {
   font-family: "Raleway", sans-serif;
@@ -25,7 +26,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: #070606;
 }
 .nav-list-link {
   font-family: Roboto, sans-serif;
@@ -37,10 +38,10 @@
   color: #212121;
 }
 .list-nav-list :hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .list-nav-list :focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-link {
   font-family: Roboto, sans-serif;
@@ -53,10 +54,10 @@
   color: #4d4545;
 }
 .header-link :hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-link :focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .main-header {
   background-color: #2f303a;
@@ -82,8 +83,8 @@
   cursor: pointer;
 }
 
-.mod-btn:hover{
-     background: #2196f3;;
+.mod-btn:hover {
+  background: var(--accent-color);
 }
 
 .menu-list {
@@ -109,7 +110,6 @@
 .menu-about {
   background-color: #f5f4fa;
   font-family: Roboto, sans-serif;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -126,9 +126,9 @@
   background: #2f303a;
 }
 .contact {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -136,17 +136,20 @@
   color: #ffffff;
 }
 .mod-button {
-width: 103px;
-height: 38px;
-left: 865px;
-top: 174px;
-background: #F5F4FA;
-border-radius: 4px;
-text-transform: uppercase;
-cursor: pointer;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
- .mod-button:hover {color: white; background: #2196f3;}
+.mod-button:hover {
+  color: white;
+  background: var(--accent-color);
+}
 
 .end-page2 {
   position: absolute;
@@ -161,7 +164,7 @@ cursor: pointer;
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .accent2 {
   font-family: "Raleway", sans-serif;
@@ -172,6 +175,21 @@ cursor: pointer;
 
   color: #ffffff;
 }
+.pictures-ithem {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 
+  color: #212121;
+}
+.pictures-ithem {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 
-
+  color: #757575;
+}
