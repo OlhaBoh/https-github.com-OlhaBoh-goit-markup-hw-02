@@ -52,7 +52,7 @@ body {
   letter-spacing: 0.02em;
 }
 .header-link :link {
-  color: #4d4545;
+  color: #757575;
 }
 .header-link :hover {
   color: var(--accent-color);
@@ -75,16 +75,17 @@ body {
 }
 
 .mod-btn {
-  background: #808080;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #fcfcfc;
   padding: 5px;
-  text-transform: uppercase;
+
   cursor: pointer;
 }
 
-.mod-btn:hover {
+.mod-btn:hover,
+.mod-btn:focus {
   background: var(--accent-color);
 }
 
@@ -97,15 +98,8 @@ body {
 
   color: #212121;
 }
-.options-list {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
 
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
+/*======Kоманда=======*/
 .menu-about {
   background-color: #f5f4fa;
 
@@ -118,6 +112,27 @@ body {
   color: #212121;
 }
 
+.options-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.menu-about-team {
+  font-family: var(--primary-fond-family);
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
 .end-page {
   position: absolute;
   height: 150px;
@@ -125,6 +140,7 @@ body {
   background: #2f303a;
 }
 .contact {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -140,7 +156,7 @@ body {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
-  text-transform: uppercase;
+
   cursor: pointer;
 }
 
