@@ -149,11 +149,14 @@ body {
   background: #2f303a;
 }
 .header-link-down {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  font-family: var(--primary-fond-family);
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 .header-link-down :link {
   color: #757575;
@@ -175,14 +178,17 @@ body {
 }
 .mod-button {
   font-family: inherit;
-
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
-
   background: #f5f4fa;
   border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 
   cursor: pointer;
 }
