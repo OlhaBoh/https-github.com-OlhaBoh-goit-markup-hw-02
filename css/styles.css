@@ -157,15 +157,13 @@ body {
 .header-link-down {
   font-family: var(--primary-fond-family);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
 }
 .header-link-down :link {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
 .header-link-down :hover {
   color: var(--accent-color);
